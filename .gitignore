@@ -1,0 +1,15 @@
+# build 產物
+build/
+*.o
+*.d
+
+# 執行檔
+ken
+ken_socket
+ken_socket_v2
+socket_v2
+test_addr
+test_tcp
+
+# 編輯器個人設定（有需要共用再移除）
+.vscode/
