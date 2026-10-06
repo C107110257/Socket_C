@@ -150,8 +150,6 @@ gcc -Wall -Wextra -Iinclude tests/test_tcp.c src/ks_args.c src/ks_addr.c \
 ### Inspecting traffic
 
 ```bash
-ss -tlnp | grep ken_socket                 # TCP listeners
-ss -ulnp | grep ken_socket                 # UDP sockets
 tcpdump -i eth0 -nn -X 'port 8787 and not port 22'
 ```
 
