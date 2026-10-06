@@ -11,6 +11,10 @@ A small, modular point-to-point chat tool written in C with the Berkeley Socket 
 - Application-level `quit` command, so TCP and UDP sessions end the same way
 - Modular design: protocol, address handling, argument parsing and chat logic are separate modules
 
+## Demo
+
+![TCP client/server chat demo](./DEMO.png)
+
 ## Requirements
 
 - Linux
